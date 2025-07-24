@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Data Analytics Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Data Analytics Portfolio</h1>
+    <p>Welcome! Here are some of the projects I've worked on.</p>
+  </header>
+
+  <nav>
+    <button class="filter-btn" data-category="all">All</button>
+    <button class="filter-btn" data-category="python">Python</button>
+    <button class="filter-btn" data-category="sql">SQL</button>
+    <button class="filter-btn" data-category="tableau">Tableau</button>
+  </nav>
+
+  <main id="project-list">
+    <!-- Project cards -->
+    <div class="project-card" data-category="python">
+      <h3>Sales Forecasting</h3>
+      <p>Used time-series modeling in Python to forecast future sales trends.</p>
+      <a href="https://github.com/yourusername/sales-forecasting" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card" data-category="sql">
+      <h3>Customer Segmentation</h3>
+      <p>SQL queries to analyze customer behavior and group by segments.</p>
+      <a href="https://github.com/yourusername/customer-segmentation" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card" data-category="tableau">
+      <h3>Interactive Dashboard</h3>
+      <p>Built an interactive dashboard in Tableau to visualize key KPIs.</p>
+      <a href="https://public.tableau.com/profile/yourusername" target="_blank">View Project</a>
+    </div>
+
+    <!-- Add more projects here -->
+  </main>
+
+  <footer>
+    <p>© 2025 Your Name • <a href="https://github.com/yourusername" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
